@@ -15,3 +15,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+--Dylan
+For running on web browser:
+export CHROME_EXECUTABLE=/usr/bin/chromium
+flutter run -d chrome --wasm
+
+else, just hit 'flutter run' and it will run it for any device you have in theory
+
